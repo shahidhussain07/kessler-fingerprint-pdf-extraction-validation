@@ -1,0 +1,86 @@
+{
+  "document_type": "invoice",
+  "document_number": "RE-2026-10466",
+  "document_date": "2026-10-15",
+  "service_date": null,
+  "due_date": "2026-11-14",
+  "currency": "EUR",
+  "supplier": {
+    "name": "Kessler Industrietechnik GmbH",
+    "vat_id": "DE287364519"
+  },
+  "buyer": {
+    "name": "Rhemwerk Anlagenbau AG",
+    "street": "Hafenstraße 88",
+    "postal_code": "47119",
+    "city": "Dinsburg",
+    "customer_number": "40217"
+  },
+  "order_reference": "4500093588",
+  "delivery_note_number": "LS-59055",
+  "referenced_invoice": null,
+  "line_items": [
+    {
+      "position": 1,
+      "article_number": "KI-40118",
+      "description": "Atonkugellager 6206-22",
+      "quantity": 16,
+      "unit": "m",
+      "unit_price": 10.9,
+      "price_unit": 1,
+      "discount_percent": null,
+      "line_total": 174.4,
+      "vat_rate": 19
+    },
+    {
+      "position": 2,
+      "article_number": "KI-63310",
+      "description": "Hydraumsschaucehn 25N DNID I 2°",
+      "quantity": 20,
+      "unit": "m",
+      "unit_price": 12.3,
+      "price_unit": 1,
+      "discount_percent": 5,
+      "line_total": 235.6,
+      "vat_rate": 19
+    },
+    {
+      "position": 3,
+      "article_number": null,
+      "description": "Sacnsantınuner DIN y3A MID 8 vor:",
+      "quantity": 300,
+      "unit": "Stk",
+      "unit_price": 3.85,
+      "price_unit": 100,
+      "discount_percent": null,
+      "line_total": 11.58,
+      "vat_rate": 19
+    },
+    {
+      "position": 4,
+      "article_number": null,
+      "description": "Fächbuch Tabellenduch MeLv: 49 Aufı",
+      "quantity": 1,
+      "unit": "Stk",
+      "unit_price": null,
+      "price_unit": 1,
+      "discount_percent": null,
+      "line_total": null,
+      "vat_rate": 7
+    }
+  ],
+  "totals": {
+    "net_by_vat_rate": {
+      "19": 421.55,
+      "7": 3.39
+    },
+    "vat_by_vat_rate": {
+      "19": 80.09,
+      "7": 2.44
+    },
+    "net_total": 424.94,
+    "vat_total": 82.53,
+    "gross_total": 538.98
+  },
+  "cash_discount": null
+}
