@@ -47,7 +47,7 @@ The OCR bonus (INV-06) also needs the **Tesseract** program with German language
 1. Get the code and create a virtual environment:
 
     ```bash
-    git clone <repo-url>
+    git clone https://github.com/shahidhussain07/swe-intern-assignment-shahid-hussain
     cd swe-intern-assignment-shahid-hussain
     python3 -m venv .venv
     source .venv/bin/activate
